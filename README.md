@@ -93,12 +93,20 @@ Looking at the battery terminals from the front:
 
 ### Configuration
 
-Edit `src/main.cpp` to set your WiFi credentials:
+Copy the secrets template and add your WiFi credentials:
+
+```bash
+cp src/secrets.h.example src/secrets.h
+```
+
+Then edit `src/secrets.h` with your WiFi credentials:
 
 ```cpp
-const char* ssid = "YourSSID";
-const char* password = "YourPassword";
+#define WIFI_SSID "YourSSID"
+#define WIFI_PASS "YourPassword"
 ```
+
+The `secrets.h` file is gitignored, so your credentials won't be committed to version control.
 
 ### Initial Flash (USB)
 

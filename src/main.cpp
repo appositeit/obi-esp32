@@ -34,6 +34,9 @@
 #include <ArduinoJson.h>
 #include <ArduinoOTA.h>
 #include "web_interface.h"
+#if __has_include("secrets.h")
+#include "secrets.h"
+#endif
 #endif
 
 // Version
