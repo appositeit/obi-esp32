@@ -86,7 +86,7 @@ Looking at the battery terminals from the front:
 - **Pin 6 (EN)**: Enable signal (side terminal)
 - **Outside pin (B-)**: Ground/negative terminal
 
-⚠️ **Warning**: Never connect the ESP32 directly to Pin 1 (B+). The 18V will destroy the ESP32.
+⚠️ **Warning**: Never connect the ESP32 directly to B+. The 18V will destroy the ESP32.
 
 ## Building and Flashing
 
