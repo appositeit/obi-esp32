@@ -71,16 +71,16 @@ Both GPIO3 and GPIO4 require 4.7kΩ pull-up resistors to 3.3V. These are essenti
 Looking at the battery terminals from the front:
 
 ```
-┌─────────────────────────────────┐
-│  [1]  [2]  [3]  [4]  [5]    [6] │
-│  B+  Data  LD   LS   B-     EN  │
-└─────────────────────────────────┘
+┌───────────────────────────────────────────┐
+│     [1]  [2]  [3]  [4]  [5]  [6]  [7]     │
+│  B+      DATA                EN        B- │
+└───────────────────────────────────────────┘
 ```
 
-- **Pin 1 (B+)**: Positive terminal (18V) - DO NOT CONNECT
+- **Outside pin (B+)**: Positive terminal (18V) - DO NOT CONNECT
 - **Pin 2 (Data)**: OneWire data communication
-- **Pin 5 (B-)**: Ground/negative terminal
 - **Pin 6 (EN)**: Enable signal (side terminal)
+- **Outside pin (B-)**: Ground/negative terminal
 
 ⚠️ **Warning**: Never connect the ESP32 directly to Pin 1 (B+). The 18V will destroy the ESP32.
 
