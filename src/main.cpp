@@ -52,11 +52,11 @@
 
 // WiFi credentials (for web server mode)
 #ifndef WIFI_SSID
-#define WIFI_SSID "U908"
+#define WIFI_SSID "YourSSID"
 #endif
 
 #ifndef WIFI_PASS
-#define WIFI_PASS "k1ndleb00ks"
+#define WIFI_PASS "YourPassword"
 #endif
 
 // Nibble swap helper
