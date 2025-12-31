@@ -36,6 +36,10 @@ A 3D printed enclosure designed for the original Arduino-based OBI works well wi
 
 The enclosure was designed for the Arduino Nano but accommodates the ESP32-C3 Super Mini with the addition of the wedge adapter.
 
+![OBI attached to battery](docs/photo1.jpg)
+
+![Connector detail](docs/photo2.jpg)
+
 ### Parts Sources
 
 These parts were used in the [OBI build video](https://www.youtube.com/watch?v=kUg9jWvf5FM):
